@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+.container{
+    height:600px;
+    width:100%;
+    /* border:1px solid black; */
+    display: flex;
+   flex-wrap:wrap;
+justify-content:space-evenly;
+}
+.box{
+    height:400px;
+    width:300px;
+    /* border:2px solid blue; */
+    margin: 5px; 
+    position: relative;
+
+}
+#box2{
+    align-self:flex-end;
+}
+.container2{
+    width:100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+
+}
+.boxno2{
+    height:200px;
+    width: 100%;
+    /* border:2px solid red; */
+    /* margin: 5px; */
+    padding: 2px;
+    position: absolute; /* Position nested boxes absolutely */
+    
+}
+.box img{
+    width: 100%;
+    height: 100%;
+  
+}
+h1{
+    position: absolute;
+   left:35%;
+   top:30%;
+   z-index:1;
+   font-size: 40px;
+    
+}
+   </style>
+</head>
+<body>
+    <h1>TRAVEL <br>EXPERIENCE</h1>
+     <div class="container">
+        <div class="box" id="box1">
+            <img src="https://images.unsplash.com/photo-1528543606781-2f6e6857f318?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="travelpc1">
+
+            <div class="boxno2" id="box4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, ab rerum! Perferendis, voluptates nihil! Aliquid magni cum eveniet porro laudantium laboriosam eaque? Sint nobis doloribus vitae iste in, repudiandae quod!
+            </div>
+        </div>
+        <div class="box" id="box2">
+            <img src="https://images.unsplash.com/photo-1498889444388-e67ea62c464b?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="travelpc1" >
+
+            <div class="boxno2" id="box5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fugiat quod cumque eum, facere sit accusamus enim tempora quo ullam iste earum nihil expedita assumenda reprehenderit eligendi eius inventore repellat.
+            </div>
+        </div>
+        <div class="box" id="box3">
+            <img src="https://images.unsplash.com/photo-1524726240783-939bfdd633e2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="travelpc1" >
+
+            <div class="boxno2" id="box6">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit et sapiente molestias magnam facilis quos eveniet? Reprehenderit quam dignissimos blanditiis temporibus nam vitae voluptatum, ab quod. Provident itaque at accusamus?
+            </div>
+        </div>
+    </div>
+<!-- <div class="container2">
+  
+    
+    
+</div> -->
+
+</body>
+</html>
